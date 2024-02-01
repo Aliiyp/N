@@ -10,6 +10,6 @@ WORKDIR /root/sourceklanr
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENV PATH="/home/sourceklanr/bin:$PATH"
+ENV PATH="/home/sourceTeo/bin:$PATH"
 
-CMD ["python3","-m","sourceklanr"]
+CMD ["python3","-m","sourceTeo"]
